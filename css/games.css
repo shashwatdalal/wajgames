@@ -1,0 +1,68 @@
+img{
+outline:none;
+border-style:none;
+}
+
+.clearfix:after{
+content: "."; 
+display: block; 
+height: 0; 
+font-size:0;	
+clear: both; 
+visibility:hidden;
+}
+.wrapper li { 
+display: inline;
+margin: 0; 
+}
+
+.link{
+border-left:1px solid #cecece;
+border-right:1px solid #cecece;
+border-top:1px solid #cecece;
+padding:0;
+}
+.link li{
+display: block;
+width: 100%;
+background:#f5f5f5 url(../images/arw01.png) no-repeat 98% 50%;
+border-bottom:1px solid #cecece;
+text-shadow: 0px 1px 0px #fff;
+}
+.link li+li{
+border-top:1px solid #fff;
+}
+.link a{
+display: block;
+font-weight:bold;
+color:#4d4d4d;
+padding:10px 30px 5px 10px;
+text-decoration:none;
+text-align:left;
+}
+.link span.img{
+display:block;
+width:60px;
+float:left;
+padding:0 10px 0 0;
+}
+.link span.txt{
+display:block;
+width:70%;
+float:left;
+}
+
+.link font{
+display:block;
+font-weight:normal;
+color:#828282;
+font-size:12px;
+}
+.link font.star{
+color:#ff770b;
+}
+
+.link a.on,
+.link a:hover{
+background:#ebebeb url(images/arw01.png) no-repeat 98% 50%;
+}

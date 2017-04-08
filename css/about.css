@@ -1,0 +1,12 @@
+#textbox{
+    width: 600px;
+}
+#table{
+    font-family: 'Terminal Dosis', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #f0f8ff;
+}
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
